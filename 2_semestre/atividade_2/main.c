@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <wchar.h>
+#include <locale.h>
 
 // Crie um programa para imprimir seus dados, 
 // que devem ser apresentados na tela da seguinte maneira:
@@ -9,9 +11,11 @@
 // Utilize printf para desenvolver essa atividade. 
 int main()
 {
+    setlocale(LC_ALL, "Portuguese");
+
     printf("Nome: Newton Urbanetz");
     printf("\n");
-    printf("Profissão: programador");
+    wprintf(L"Profissão: programador");
     printf("\n");
     printf("Cidade: Curitiba");
     printf("\n");
