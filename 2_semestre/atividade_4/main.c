@@ -8,6 +8,12 @@
 // à primeira variável e 150% de seu valor à segunda variável.
 // Esses valores devem ser calculados.
 
+
+int increasePercentage(int value, int percentage)
+{
+    return value * percentage / 100;
+}
+
 int main()
 {
     setlocale(LC_ALL, "Portuguese");
@@ -22,11 +28,11 @@ int main()
     scanf("%d", &numB);
     printf("\n");
 
-    int increaseA = numA * 80 / 100;
+    int increaseA = increasePercentage(numA, 80); // numA * 80 / 100;
     wprintf(L"o valor de a mais 80% é: %d", numA + increaseA);
     printf("\n");
 
-    int increaseB = numB * 150 / 100;
+    int increaseB = increasePercentage(numB, 150); // numB * 150 / 100;
     wprintf(L"o valor de b mais 150% é: %d", numB + increaseB);
 
     return 0;
