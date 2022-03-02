@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "captain-definition": "json",
+        "stdio.h": "c",
+        "locale.h": "c"
+    }
+}
