@@ -11,7 +11,7 @@
 
 int increasePercentage(int value, int percentage)
 {
-    return value * percentage / 100;
+    return value + (value * percentage / 100);
 }
 
 int main()
@@ -29,11 +29,11 @@ int main()
     printf("\n");
 
     int increaseA = increasePercentage(numA, 80); // numA * 80 / 100;
-    wprintf(L"o valor de a mais 80% é: %d", numA + increaseA);
+    wprintf(L"o valor de a mais 80% é: %d", increaseA);
     printf("\n");
 
     int increaseB = increasePercentage(numB, 150); // numB * 150 / 100;
-    wprintf(L"o valor de b mais 150% é: %d", numB + increaseB);
+    wprintf(L"o valor de b mais 150% é: %d", increaseB);
 
     return 0;
 }
