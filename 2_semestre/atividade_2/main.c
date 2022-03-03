@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <wchar.h>
 #include <locale.h>
 
@@ -13,13 +14,13 @@ int main()
 {
     setlocale(LC_ALL, "Portuguese");
 
-    printf("Nome: Newton Urbanetz");
+    printf("Nome: Regiane Marcon");
     printf("\n");
-    wprintf(L"Profissão: programador");
+    wprintf(L"Profissão: Professora");
     printf("\n");
-    printf("Cidade: Curitiba");
+    printf("Cidade: Dourados");
     printf("\n");
-    printf("UF: PR");
+    printf("UF: MS");
 
     return 0;
 }
