@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <wchar.h>
-#include <locale.h>
 
 // Crie um programa que peça ao usuário para informar o valor
 // de sete variáveis do tipo inteiro. O programa mostrar os
@@ -9,7 +7,6 @@
 
 int main()
 {
-    setlocale(LC_ALL, "Portuguese");
 
     int n[7];
     int i, j;
