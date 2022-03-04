@@ -7,8 +7,6 @@
 // o nome de uma pessoa (deve ter no máximo 30 caracteres).
 // O programa deverá converter este nome para minúsculo e depois para maiúsculo.
 
-int num1, num2;
-
 int main()
 {
     setlocale(LC_ALL, "Portuguese");
