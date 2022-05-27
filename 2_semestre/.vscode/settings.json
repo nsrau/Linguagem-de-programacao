@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "captain-definition": "json",
+        "*.tcc": "cpp",
+        "fstream": "cpp",
+        "sstream": "cpp",
+        "streambuf": "cpp",
+        "ostream": "cpp",
+        "new": "cpp"
+    }
+}
