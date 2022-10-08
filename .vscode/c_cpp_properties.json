@@ -1,24 +1,27 @@
 {
-    "configurations": [
-        {
-            "name": "Win32",
-            "includePath": [
-                "${workspaceFolder}/**"
-            ],
-            "browse": {
-                "limitSymbolsToIncludedHeaders": false,
-                "databaseFilename": ""
-            },
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
-            "compilerPath": "C:/msys64/mingw64/bin/gcc.exe",
-            "cStandard": "gnu17",
-            "cppStandard": "gnu++17",
-            "intelliSenseMode": "windows-gcc-x64"
-        }
-    ],
-    "version": 4
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": ["${workspaceFolder}/**"],
+      "defines": [],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "clang-x64"
+    },
+    {
+      "name": "Win32",
+      "includePath": ["${workspaceFolder}/**"],
+      "browse": {
+        "limitSymbolsToIncludedHeaders": false,
+        "databaseFilename": ""
+      },
+      "defines": ["_DEBUG", "UNICODE", "_UNICODE"],
+      "compilerPath": "C:/msys64/mingw64/bin/gcc.exe",
+      "cStandard": "gnu17",
+      "cppStandard": "gnu++17",
+      "intelliSenseMode": "windows-gcc-x64"
+    }
+  ],
+  "version": 4
 }
